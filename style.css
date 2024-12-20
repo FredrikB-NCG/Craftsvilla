@@ -63,12 +63,12 @@ nav a {
     background-image:url(/images/header-img.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-
+    background-position: center center;
     text-align: center;
 }
 
 .intro-section h1 {
-    margin-top: 18rem;
+    margin-top: 8rem;
     font-size: 32px;
 }
 
@@ -93,27 +93,42 @@ hr {
     align-items: center;
 }
 
+
 .product-cards {
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: column;
-    border: 1px;
-    border-color: red;
-    border-style: solid;
     height: 33rem;
     width: 23rem;
     margin-top: 5rem;
 }
 
 .product-cards h2 {
-    padding-bottom: 13rem;
+    font-size: 2rem;
+    padding-bottom: 11rem;
 }
 
 .product-cards a {
     margin-bottom: 1rem;
 }
 
+#lerret {
+    background-image: url(/images/lerret.jpg);
+}
+
+#avarell {
+    background-image: url(/images/akvarell.jpg);
+}
+
+#mosaikk {
+    background-image: url(/images/mosaikk.jpg);
+}
+
+#lerret, #avarell, #mosaikk {
+    background-size: cover;
+    background-position: 100%;
+}
 /* Scroll snapper */
 
 #scroll-wrapper {
@@ -129,3 +144,33 @@ hr {
     scroll-snap-align: center;
 }
 
+
+/* Galleri section */
+
+.galleri-section {
+    margin: auto;
+    background-image: url(/images/galleri.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galleri-cardsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.galleri-cards {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    height: 33rem;
+    width: 23rem;
+    margin-top: 5rem;
+}
