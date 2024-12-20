@@ -60,9 +60,8 @@ nav a {
     background-image:url(/images/header-img.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 1080px;
+
     text-align: center;
-    margin-top: -17.05rem;
 }
 
 .intro-section h1 {
@@ -85,7 +84,19 @@ hr {
 
 .products-section {
     background-color: black;
-    height: 1020px;
 }
 
+/* Scroll snapper */
 
+#scroll-wrapper {
+    height: 100vh;
+    height: 100dvh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    margin-top: -8.6rem;
+}
+
+#scroll-section {
+    height: 100%;
+    scroll-snap-align: center;
+}
