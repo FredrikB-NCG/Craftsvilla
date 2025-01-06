@@ -49,6 +49,7 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
     color: white;
+    z-index: 100;
 }
 
 
@@ -117,7 +118,7 @@ hr {
     background-image: url(/images/lerret.jpg);
 }
 
-#avarell {
+#akvarell {
     background-image: url(/images/akvarell.jpg);
 }
 
@@ -125,7 +126,7 @@ hr {
     background-image: url(/images/mosaikk.jpg);
 }
 
-#lerret, #avarell, #mosaikk {
+#lerret, #akvarell, #mosaikk {
     background-size: cover;
     background-position: 100%;
 }
@@ -162,15 +163,90 @@ hr {
 .galleri-cardsec {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .galleri-cards {
     display: flex;
-    justify-content: end;
     align-items: center;
     flex-direction: row;
-    height: 33rem;
-    width: 23rem;
-    margin-top: 5rem;
+    height: 25rem;
+    width: 25rem;
+    margin-top: 8rem;
+    margin-inline: 3rem;
+}
+
+.galleri-section h2 {
+    padding-top: 5rem;
+    font-size: 4rem;
+}
+
+#gal-card1 {
+    background-image: url(/images/mosaikk-card.jpg);
+}
+
+#gal-card2 {
+    background-image: url(/images/painting-card.jpg);
+}
+
+#gal-card3 {
+    background-image: url(/images/woman-card.jpg);
+}
+
+#gal-card1, #gal-card2, #gal-card3 {
+    background-size: cover;
+    background-position: 60%;
+}
+
+/* Feedback section */
+
+.feedback-section {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feedback-cardsec {
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback-cards {
+    display: flex;
+    background-color: #D9D9D9;
+    align-items: center;
+    flex-direction: row;
+    height: 25rem;
+    width: 25rem;
+    margin-top: 8rem;
+    margin-inline: 3rem;
+    border-radius: 20px;
+}
+
+.galleri-section h2 {
+    padding-top: 5rem;
+    font-size: 4rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 60%;
+}
+
+footer hr {
+    width: 75vw;
+    margin-block: 10px;
+}
+
+footer h2 {
+    font-family: "Monoton", serif;;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
 }
