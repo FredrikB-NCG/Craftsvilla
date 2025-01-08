@@ -1,3 +1,9 @@
+.booking {
+    background-image:url(/images/galleri.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
 .booking-form {
     margin: auto;
     display: flex;
