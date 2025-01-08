@@ -1,0 +1,79 @@
+.booking-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs-div {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2rem;   
+}
+
+.inputs-div input {
+    width: 35rem;
+    height: 3rem;
+}
+
+.inputs-div select {
+    margin: 0;
+    padding-block: 1rem;
+    
+}
+
+.inputs-div input, select {
+    background-color: #D9D9D9;
+    padding-inline: 1rem;
+    font-family: "Noto Sans", serif;
+    border-style: none;
+    border-radius: 10px;
+}
+
+label {
+    margin-block: 1rem;
+}
+
+.products {
+    display: flex;
+}
+
+.products div {
+    border-radius: 10px;
+    color: black;
+    margin-top: 2.5rem;
+    display: flex;
+    width: 20rem;
+    margin-inline: 3rem;
+    background-color: #D9D9D9;
+    padding-inline: 1rem;
+}
+
+.products label {
+    padding-right: 8rem;
+}
+
+.products input {
+    width: 2rem;
+    accent-color: black;
+}
+
+.submit-btn {
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D9D9D9;
+    margin-top: 3rem;
+    font-size: 3rem;
+    width: 22rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #d9d9d9b7;
+}

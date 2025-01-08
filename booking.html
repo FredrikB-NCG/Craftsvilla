@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsvilla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>CRAFTSVILLA</h2>
+        </div>
+        <nav>
+            <a href="#">GALLERI</a>
+            <a href="#">TILBAKEMEDLING</a>
+            <a class="button" href="#">BESTILL</a>
+        </nav>
+    </header>
+    <main>
+        <form class="booking-form">
+            <div class="input-fields">
+                <div class="inputs-div">
+                    <label for="name">Navn</label>
+                    <input type="text" id="name" name="Navn" placeholder="Ola Normann">
+                    <label for="email">E-Post</label>
+                    <input type="email" id="email" name="Epost" placeholder="olanormann@epost.no">
+                    <label for="phone">Mobil</label>
+                    <input type="text" id="phone" name="Mobil" placeholder="+47 41 123 123">
+                </div>
+                <div class="inputs-div">
+                    <label for="participants">Antall Deltagere</label>
+                    <input type="text" placeholder="Skriv antall deltagere">
+                    <label for="date">Dato</label>
+                    <input type="date">
+                    <label for="time">Tid</label>
+                    <select name="time" id="time">
+                        <option value="09:00">09:00</option>
+                        <option value="15:00">12:00</option>
+                        <option value="15:00">15:00</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products">
+                <div>
+                    <label for="mosaikk"><b>Mosaikk Kunst</b> <p>400kr per deltager</p></label>
+                    <input type="radio" id="mosaikk" name="produkt" value="mosaikk">
+                </div>
+                <div>
+                    <label for="mosaikk"><b>Akvarell Maling</b> <p>200kr per deltager</p></label>
+                    <input type="radio" id="akvarell" name="produkt" value="akvarell">
+                    
+                </div>
+                <div>
+                    <label for="mosaikk"><b>Lerrets Maling</b> <p>300kr per deltager</p></label>
+                    <input type="radio" id="lerret" name="produkt" value="lerret">
+                </div>
+            </div>
+            <input class="submit-btn" type="submit">
+        </form>
+    </main>
+    <footer>
+        <p>+47 40 123 510</p>
+        <p>post@craftsvilla.no</p>
+        <p>Osloveien 67, Oslo 0010</p>
+        <h2>CRAFTSVILLA</h2>
+        <hr>
+        <p>© 2024 CASTLEVILLA - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
