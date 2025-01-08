@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craftsvilla</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="booking.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -19,7 +21,53 @@
         </nav>
     </header>
     <main>
-        
+        <form class="booking-form">
+            <div class="input-fields">
+                <div class="inputs-div">
+                    <label for="name">Navn</label>
+                    <input type="text" id="name" name="Navn" placeholder="Ola Normann">
+                    <label for="text">Hvem kom du med?</label>
+                    <input type="email" id="email" name="Epost" placeholder="Feks, Familie, Venner, kollegaer">
+                    <label for="time">Produkt</label>
+                    <select name="produkt" id="time">
+                        <option value="09:00">Mosaikk Kunst</option>
+                        <option value="15:00">Akvarell Maling</option>
+                        <option value="15:00">Lerrets Maling</option>
+                    </select>
+                </div>
+                <div id="text-field" class="inputs-div">
+                    <label for="textfield">Din opplevelse</label>
+                    <input type="text" placeholder="Skriv litt om din opplevelse">
+                </div>
+            </div>
+            <input class="submit-btn" type="submit">
+        </form>
+        <div class="feedback-row">
+            <div id="fb-card1"  class="feedback-cards">
+                <img src="/images/person.png" alt="Profile picture">
+                <p class="feedback-text">Var her med hele familien og dette var en fantastisk opplevelse! Kommer garantert tilbake</p>
+                <div>
+                    <p class="feedback-name"><b>Ann Katrin</b></p>
+                    <p class="feedback-product"><b>Mosaikk Kunst</b></p>
+                </div>
+            </div>
+            <div id="fb-card2" class="feedback-cards">
+                <img src="/images/person.png" alt="Profile picture">
+                <p class="feedback-text">Var her med hele familien og dette var en fantastisk opplevelse! Kommer garantert tilbake</p>
+                <div>
+                    <p class="feedback-name"><b>Ann Katrin</b></p>
+                    <p class="feedback-product"><b>Mosaikk Kunst</b></p>
+                </div>
+            </div>
+            <div id="fb-card3" class="feedback-cards">
+                <img src="/images/person.png" alt="Profile picture">
+                <p class="feedback-text">Var her med hele familien og dette var en fantastisk opplevelse! Kommer garantert tilbake</p>
+                <div>
+                    <p class="feedback-name"><b>Ann Katrin</b></p>
+                    <p class="feedback-product"><b>Mosaikk Kunst</b></p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>+47 40 123 510</p>

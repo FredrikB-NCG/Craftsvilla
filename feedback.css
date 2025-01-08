@@ -1,0 +1,18 @@
+body {
+    background-image:url(/images/woman-card.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#text-field input {
+    padding-bottom: 13rem;
+}
+
+.submit-btn {
+    margin-right: 56rem;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: center;
+}
