@@ -25,11 +25,16 @@ header {
     z-index: 10;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logo h2 {
     font-family: "Monoton", serif;;
     font-size: 64px;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 nav a {
