@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    padding-top: 2rem;
+    font-size: 64px;
+}
+
+
+/* Galleri section */
+
+.galleri-section {
+    margin: auto;
+    background-image: url(/images/galleri.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.galleri-cardsec {
+    display: flex;
+    flex-direction: row;
+}
+
+.galleri-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 25rem;
+    width: 25rem;
+    margin-top: 8rem;
+    margin-inline: 3rem;
+}
+
+.galleri-section h2 {
+    padding-top: 5rem;
+    font-size: 4rem;
+}
+
+#gal-card1 {
+    background-image: url(/images/mosaikk-card.jpg);
+}
+
+#gal-card2 {
+    background-image: url(/images/painting-card.jpg);
+}
+
+#gal-card3 {
+    background-image: url(/images/woman-card.jpg);
+}
+
+#gal-card1, #gal-card2, #gal-card3 {
+    background-size: cover;
+    background-position: 60%;
+}
